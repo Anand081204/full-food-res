@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Annachi burger</title>
+    <!--heading logo-->
+    <link rel="icon" href="image/food2.png" />
+    <!--css link-->
+    <link rel="stylesheet" href="style.css" />
+    <!--font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--icon
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-whatsapp"></i>
+    <i class="fa-solid fa-cart-shopping"></i>
+    <i class="fa-solid fa-bars"></i>
+       <i class="fa-solid fa-xmark" onclick="cancel()"></i>
+    -->
+  </head>
+  <body>
+    <div class="overall-container">
+      <nav class="navbar">
+        <div class="nav-logo">
+          <h1>Annachi</h1>
+        </div>
+        <ul class="nav-links-container">
+          <li><a href="#section-banner" class="nav-links" class="link-1">home</a></li>
+          <li><a href="#section-about" class="nav-links" class="link-1">about</a></li>
+          <li><a href="#section-menu" class="nav-links" class="link-1">menu</a></li>
+          <li><a href="#section-service" class="nav-links" class="link-1">service</a></li>
+          <li><a href="#section-contact" class="nav-links" class="link-1">contact</a></li>
+        </ul>
+        <div class="menu-container">
+          <i class="fa-solid fa-bars" onclick=" show()"></i>
+        </div>
+      </nav>
+      <!--sidenav-->
+      <div class="side-nav-container" id="nav-side-bar">
+        <div class="close-container">
+          <i class="fa-solid fa-xmark" onclick="cancel()"></i>
+        </div>
+        <ul class="nav-side-links-container">
+          <li>
+            <a href="#section-banner" class="nav-side-links" class="side-link-1">home</a>
+          </li>
+          <li>
+            <a href="#section-about" class="nav-side-links" class="side-link-1">about</a>
+          </li>
+          <li>
+            <a href="#section-menu" class="nav-side-links" class="side-link-1">menu</a>
+          </li>
+          <li>
+            <a href="#section-service" class="nav-side-links" class="side-link-1">service</a>
+          </li>
+          <li>
+            <a href="#section-contact" class="nav-side-links" class="side-link-1">contact</a>
+          </li>
+        </ul>
+      </div>
+      <!--bannersection-->
+      <div class="bannersection-container" id="section-banner">
+        <div class="banner-element-container">
+          <div class="text-container">
+            <h1>Hotel Annachi</h1>
+            <p>
+              Food the <br />
+              most precious things
+            </p>
+            <button>Today menu</button>
+          </div>
+          <div class="image-container">
+            <img src="image/home.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <!--aboutsection-->
+      <div class="aboutsection-container" id="section-about">
+        <div class="about-element-container">
+          <div class="about-image-container">
+            <img src="image/about.png" alt="" />
+          </div>
+          <div class="about-text-container">
+            <div class="text-element">
+              <h3>about</h3>
+              <h1>We Speak the good food language</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                omnis excepturi aut saepe vitae consectetur eligendi perferendis
+                ipsum nostrum corrupti.
+              </p>
+              <button>learn more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--menu-section-->
+      <div class="menusection-container" id="section-menu">
+        <div class="menu-text-container">
+          <h3>food menu</h3>
+          <h1>Taste food good qulity</h1>
+        </div>
+        <div class="menu-layer">
+          <div class="menu-card-container">
+            <div class="menu-card-1">
+              <div>
+                <img src="image/food1.png" alt="" />
+                <h3>chick burger</h3>
+                <p>taste food</p>
+                <p>$2</p>
+              </div>
+            </div>
+            <div class="menu-card-1">
+              <div>
+                <img src="image/food2.png" alt="" />
+                <h3>chick burger</h3>
+                <p>taste food</p>
+                <p>$2</p>
+              </div>
+            </div>
+            <div class="menu-card-1">
+              <div>
+                <img src="image/food3.png" alt="" />
+                <h3>chick burger</h3>
+                <p>taste food</p>
+                <p>$2</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--servicesection-->
+      <div class="service-section-container" id="section-service">
+        <div class="service-text-container">
+          <h1>we provide qulity food</h1>
+        </div>
+        <div class="service-layer">
+          <div class="service-card-container">
+            <div class="service-card-1">
+              <div>
+                <img src="image/s1.png" alt="" />
+                <h3>order</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Facere, quasi.
+                </p>
+              </div>
+            </div>
+            <div class="service-card-1">
+              <div>
+                <img src="image/s2.png" alt="" />
+                <h3>shipping</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Facere, quasi.
+                </p>
+              </div>
+            </div>
+            <div class="service-card-1">
+              <div>
+                <img src="image/s3.png" alt="" />
+                <h3>Delivery</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Facere, quasi.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--contactsection-->
+      <div class="contact-section" id="section-contact">
+        <div class="contact-container">
+          <h1>
+            We make qulity food <br />
+            Everyday
+          </h1>
+          <button>Let's Talk</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
